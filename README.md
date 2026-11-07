@@ -1,26 +1,3 @@
-<style>
-  /* Efek animasi fade-in saat halaman dimuat */
-  .fade-in {
-    animation: fadeIn 1.5s ease-in-out;
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  /* Efek hover pada semua ikon dan badge (membesar sedikit saat disentuh mouse) */
-  img {
-    transition: transform 0.3s ease, filter 0.3s ease;
-  }
-  img:hover {
-    transform: scale(1.08);
-  }
-
-  /* Styling kustom untuk badge/kartu sosial */
-  .social-icon:hover {
-    filter: brightness(1.2);
-  }
-</style>
 
 <div class="fade-in">
   <h1 align="center">Hi 👋, I'm Muzhaffa Gaza Hariri</h1>
